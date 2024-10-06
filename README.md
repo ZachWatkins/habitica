@@ -1,4 +1,17 @@
-Habitica ![Build Status](https://github.com/HabitRPG/habitica/workflows/Test/badge.svg)
+Self-Hosted Habitica Fork
+===============
+
+This is a fork of Habitica which I host at home for my family.
+
+These are the changes I will make:
+1. Turn off third party services, firstly analytics and payment services.
+2. Enable Group plans.
+3. Work with Windows.
+4. Work well for development in Visual Studio Code.
+
+Any changes I make which might be accepted by the upstream project will be submitted for their review.
+
+Original Documentation for Habitica ![Build Status](https://github.com/HabitRPG/habitica/workflows/Test/badge.svg)
 ===============
 
 [Habitica](https://habitica.com) is an open-source habit-building program that treats your life like a role-playing game. Level up as you succeed, lose HP as you fail, and earn Gold to buy weapons and armor!
