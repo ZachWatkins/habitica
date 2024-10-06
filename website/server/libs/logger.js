@@ -44,12 +44,12 @@ if (IS_PROD) {
   }
 
   if (LOGGLY_TOKEN && LOGGLY_SUBDOMAIN) {
-    logger.add(new Loggly({
-      inputToken: LOGGLY_TOKEN,
-      subdomain: LOGGLY_SUBDOMAIN,
-      tags: ['Winston-NodeJS'],
-      json: true,
-    }));
+    // logger.add(new Loggly({
+    //   inputToken: LOGGLY_TOKEN,
+    //   subdomain: LOGGLY_SUBDOMAIN,
+    //   tags: ['Winston-NodeJS'],
+    //   json: true,
+    // }));
   }
 // Do not log anything when testing unless specified
 } else if (!IS_TEST || (IS_TEST && ENABLE_LOGS_IN_TEST)) {
