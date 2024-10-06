@@ -1,5 +1,4 @@
 /* eslint-disable camelcase */
-import paypalPayments from '../../../libs/payments/paypal';
 import logger from '../../../libs/logger';
 import shared from '../../../../common';
 import {

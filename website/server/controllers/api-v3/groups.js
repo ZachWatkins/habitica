@@ -24,8 +24,6 @@ import {
 } from '../../libs/invites';
 import common from '../../../common';
 import payments from '../../libs/payments/payments';
-import stripePayments from '../../libs/payments/stripe';
-import amzLib from '../../libs/payments/amazon';
 import { apiError } from '../../libs/apiError';
 import { model as UserNotification } from '../../models/userNotification';
 

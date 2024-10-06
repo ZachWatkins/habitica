@@ -33,8 +33,6 @@ import {
   schema as SubscriptionPlanSchema,
 } from './subscriptionPlan';
 import logger from '../libs/logger';
-import amazonPayments from '../libs/payments/amazon'; // eslint-disable-line import/no-cycle
-import stripePayments from '../libs/payments/stripe'; // eslint-disable-line import/no-cycle
 import { getGroupChat, translateMessage } from '../libs/chat/group-chat'; // eslint-disable-line import/no-cycle
 import { model as UserNotification } from './userNotification';
 import { sendChatPushNotifications } from '../libs/chat'; // eslint-disable-line import/no-cycle

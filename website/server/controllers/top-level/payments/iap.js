@@ -4,8 +4,6 @@ import {
 import {
   BadRequest,
 } from '../../../libs/errors';
-import googlePayments from '../../../libs/payments/google';
-import applePayments from '../../../libs/payments/apple';
 
 const api = {};
 

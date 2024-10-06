@@ -19,8 +19,6 @@ import { model as UserNotification } from '../userNotification';
 import schema from './schema'; // eslint-disable-line import/no-cycle
 import payments from '../../libs/payments/payments'; // eslint-disable-line import/no-cycle
 import * as inboxLib from '../../libs/inbox'; // eslint-disable-line import/no-cycle
-import amazonPayments from '../../libs/payments/amazon'; // eslint-disable-line import/no-cycle
-import stripePayments from '../../libs/payments/stripe'; // eslint-disable-line import/no-cycle
 import paypalPayments from '../../libs/payments/paypal'; // eslint-disable-line import/no-cycle
 import { model as NewsPost } from '../newsPost';
 import { TransactionModel as Transaction } from '../transaction';
